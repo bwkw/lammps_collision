@@ -11,7 +11,7 @@ class Atom:
 
 def add_ball(atoms, xpos, xvel):
     r = 8
-    s = 0.2
+    s = 3.0
     h = 0.5 * s
     for ix in range(-r, r+1):
         for iy in range(-r, r+1):
